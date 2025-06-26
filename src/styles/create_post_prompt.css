@@ -1,0 +1,41 @@
+.create-prompt {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: linear-gradient(to right, #f3f0ff, #ede7ff);
+  border-radius: 0.75rem;
+  border: 1px solid #e6d9f0;
+}
+
+.prompt-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.prompt-description {
+  color: #4b5563;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.create-post-btn {
+  background: linear-gradient(to right, #8b5cf6, #a78bfa);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.create-post-btn:hover {
+  background: linear-gradient(to right, #7c3aed, #8b5cf6);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.create-post-btn:hover {
+  background: linear-gradient(to right, #7c3aed, #8b5cf6);
+}

@@ -1,0 +1,86 @@
+.navigation {
+  background-color: white;
+  border-top: 1px solid #e6d9f0;
+  position: sticky;
+  bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    border-top: none;
+    border-right: 1px solid #e6d9f0;
+    width: 16rem;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+.nav-container {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+.nav-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  transition: all 0.2s;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .nav-button {
+    flex: none;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+.nav-button-active {
+  color: #8b5cf6;
+  background-color: #f3f0ff;
+}
+
+@media (min-width: 768px) {
+  .nav-button-active {
+    background-color: #e6d9f0;
+  }
+}
+
+.nav-button-inactive {
+  color: #4b5563;
+}
+
+.nav-button-inactive:hover {
+  color: #8b5cf6;
+  background-color: #f9fafb;
+}
+
+.nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nav-text {
+  display: none;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .nav-text {
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+.main-content {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    padding: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+}
