@@ -13,7 +13,7 @@ jobs:
       ECR_REPOSITORY: vibesync
       ECS_SERVICE: vibesync-service
       ECS_CLUSTER: vibesync-cluster
-      ECS_TASK_DEFINITION: vibesync-family-task:2
+      ECS_TASK_DEFINITION: vibesync-family-task
       CONTAINER_NAME: vibesync-container
 
     steps:
