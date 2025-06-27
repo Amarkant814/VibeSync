@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWS_REGION: ap-south-1
-      ECR_REPOSITORY: my-ecr-repo
-      ECS_SERVICE: my-ecs-service # Change to your ECS service name
-      ECS_CLUSTER: my-ecs-cluster # Change to your ECS cluster name
-      ECS_TASK_DEFINITION: my-task-def.json # Change to your ECS task definition file or family
-      CONTAINER_NAME: mindsync-app # Change to your container name in task definition
+      ECR_REPOSITORY: vibesync
+      ECS_SERVICE: vibesync-service
+      ECS_CLUSTER: vibesync-cluster
+      ECS_TASK_DEFINITION: vibesync-family-task:2
+      CONTAINER_NAME: vibesync-container
 
     steps:
       - name: Checkout code
